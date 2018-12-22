@@ -1,0 +1,1029 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E7DB5D41EC833636E1DC8B /* Pods_Hixel_IOS_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA35FF841B2F2C5A74FBE7E5 /* Pods_Hixel_IOS_AppUITests.framework */; };
+		734B87F9F826882AE3C9E238 /* Pods_Hixel_IOS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E67BE17182F949A42DD2289 /* Pods_Hixel_IOS_App.framework */; };
+		8C32D27E217239C30087A3FD /* UserPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32D27D217239C30087A3FD /* UserPortfolio.swift */; };
+		8C32D28021723B530087A3FD /* PortfolioCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C32D27F21723B530087A3FD /* PortfolioCompany.swift */; };
+		8C3DD2902163E8CC00DA2C99 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1662146D8CE00FC5502 /* LoginData.swift */; };
+		8C3DD2912163E8CD00DA2C99 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1662146D8CE00FC5502 /* LoginData.swift */; };
+		8C3DD2922163E8CF00DA2C99 /* FinancialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1642146D77A00FC5502 /* FinancialData.swift */; };
+		8C3DD2932163E8D000DA2C99 /* FinancialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1642146D77A00FC5502 /* FinancialData.swift */; };
+		8C3DD2942163E8D200DA2C99 /* CompanyIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1622146D64F00FC5502 /* CompanyIdentifiers.swift */; };
+		8C3DD2952163E8D300DA2C99 /* CompanyIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1622146D64F00FC5502 /* CompanyIdentifiers.swift */; };
+		8C3DD2962163E8D500DA2C99 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1602146D25A00FC5502 /* Company.swift */; };
+		8C3DD2972163E8D500DA2C99 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1602146D25A00FC5502 /* Company.swift */; };
+		8C3DD2982163E8D800DA2C99 /* TempCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53BD2141648B00C18554 /* TempCompany.swift */; };
+		8C3DD2992163E8D800DA2C99 /* TempCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53BD2141648B00C18554 /* TempCompany.swift */; };
+		8C3DD29A2163E8DD00DA2C99 /* ApplicationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1682146DEE500FC5502 /* ApplicationUser.swift */; };
+		8C3DD29B2163E8DD00DA2C99 /* ApplicationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1682146DEE500FC5502 /* ApplicationUser.swift */; };
+		8C3DD29C2163E8E000DA2C99 /* SearchEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B16A2146DFB400FC5502 /* SearchEntry.swift */; };
+		8C3DD29D2163E8E100DA2C99 /* SearchEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B16A2146DFB400FC5502 /* SearchEntry.swift */; };
+		8C478F44217D7836009D5A0F /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F41217D7836009D5A0F /* Client.swift */; };
+		8C478F45217D7836009D5A0F /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F41217D7836009D5A0F /* Client.swift */; };
+		8C478F46217D7836009D5A0F /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F41217D7836009D5A0F /* Client.swift */; };
+		8C478F47217D7836009D5A0F /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F42217D7836009D5A0F /* Credentials.swift */; };
+		8C478F48217D7836009D5A0F /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F42217D7836009D5A0F /* Credentials.swift */; };
+		8C478F49217D7836009D5A0F /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F42217D7836009D5A0F /* Credentials.swift */; };
+		8C478F4A217D7836009D5A0F /* ServerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F43217D7836009D5A0F /* ServerInterface.swift */; };
+		8C478F4B217D7836009D5A0F /* ServerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F43217D7836009D5A0F /* ServerInterface.swift */; };
+		8C478F4C217D7836009D5A0F /* ServerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C478F43217D7836009D5A0F /* ServerInterface.swift */; };
+		8C668BD22146B35100356101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C668BD12146B35100356101 /* AppDelegate.swift */; };
+		8CA9B1612146D25A00FC5502 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1602146D25A00FC5502 /* Company.swift */; };
+		8CA9B1632146D64F00FC5502 /* CompanyIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1622146D64F00FC5502 /* CompanyIdentifiers.swift */; };
+		8CA9B1652146D77A00FC5502 /* FinancialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1642146D77A00FC5502 /* FinancialData.swift */; };
+		8CA9B1672146D8CE00FC5502 /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1662146D8CE00FC5502 /* LoginData.swift */; };
+		8CA9B1692146DEE500FC5502 /* ApplicationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B1682146DEE500FC5502 /* ApplicationUser.swift */; };
+		8CA9B16B2146DFB400FC5502 /* SearchEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B16A2146DFB400FC5502 /* SearchEntry.swift */; };
+		A94142663FEE05EBC3F17E3A /* Pods_Hixel_IOS_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38601F80EEAEB2FCEAEBD5C /* Pods_Hixel_IOS_AppTests.framework */; };
+		B61B178C2150E70D0029CA63 /* ComparisonController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B178B2150E70D0029CA63 /* ComparisonController2.swift */; };
+		B61B17902150F2FB0029CA63 /* ComparisonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B178F2150F2FB0029CA63 /* ComparisonCollectionViewCell.swift */; };
+		B61B17912150F2FB0029CA63 /* ComparisonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B178F2150F2FB0029CA63 /* ComparisonCollectionViewCell.swift */; };
+		B61B17922150F2FB0029CA63 /* ComparisonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B178F2150F2FB0029CA63 /* ComparisonCollectionViewCell.swift */; };
+		B61B1794215106A20029CA63 /* ScoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B1793215106A20029CA63 /* ScoreCollectionViewCell.swift */; };
+		B61B1798215180BF0029CA63 /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B1797215180BF0029CA63 /* CollectionViewCell3.swift */; };
+		B61B179A21519B200029CA63 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B179921519B200029CA63 /* TableViewCell.swift */; };
+		B61B179C2151A8810029CA63 /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61B179B2151A8810029CA63 /* CompanyTableViewCell.swift */; };
+		B6340EBA218662BB0027532B /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6340EB9218662BB0027532B /* ChangePasswordViewController.swift */; };
+		B6452BAD2179C6C3003DD53A /* GenralIndicators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6452BAC2179C6C3003DD53A /* GenralIndicators.swift */; };
+		B6541AF321434F4900AB9894 /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6541AF221434F4900AB9894 /* CompanyCell.swift */; };
+		B6541AF721436F0700AB9894 /* Cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6541AF621436F0700AB9894 /* Cell2.swift */; };
+		B6542394215566AB00C445D6 /* GraphInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6542393215566AB00C445D6 /* GraphInfoCollectionViewCell.swift */; };
+		B65423962155672F00C445D6 /* GraphInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65423952155672F00C445D6 /* GraphInfoViewController.swift */; };
+		B65A53992141538700C18554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A53972141538700C18554 /* LaunchScreen.storyboard */; };
+		B65A53A42141538700C18554 /* Hixel_IOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53A32141538700C18554 /* Hixel_IOS_AppTests.swift */; };
+		B65A53AF2141538700C18554 /* Hixel_IOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53AE2141538700C18554 /* Hixel_IOS_AppUITests.swift */; };
+		B65A53BE2141648B00C18554 /* TempCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53BD2141648B00C18554 /* TempCompany.swift */; };
+		B65A53C2214206E600C18554 /* Portfolio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A53C1214206E600C18554 /* Portfolio.storyboard */; };
+		B65A53C4214208A300C18554 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53C3214208A300C18554 /* Portfolio.swift */; };
+		B65A53C62142098A00C18554 /* ComparisonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53C52142098A00C18554 /* ComparisonController.swift */; };
+		B65A53C8214209CB00C18554 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65A53C7214209CB00C18554 /* SettingsController.swift */; };
+		B65A53CC21420C2A00C18554 /* Portfolio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A53C1214206E600C18554 /* Portfolio.storyboard */; };
+		B65A53CD21420C2B00C18554 /* Portfolio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65A53C1214206E600C18554 /* Portfolio.storyboard */; };
+		B6824010214B310900DFACF0 /* CompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B682400F214B310900DFACF0 /* CompanyController.swift */; };
+		B6A2D74F214FA5A000853A0C /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A2D74E214FA5A000853A0C /* SearchCell.swift */; };
+		B6A523FC21420F4A0007B0C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A523FB21420F490007B0C8 /* Default-568h@2x.png */; };
+		B6A52400214213310007B0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A523FD21420F600007B0C8 /* Assets.xcassets */; };
+		B6A52401214213340007B0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A523FD21420F600007B0C8 /* Assets.xcassets */; };
+		B6A52402214213350007B0C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A523FD21420F600007B0C8 /* Assets.xcassets */; };
+		B6C29EC4215D46BF00DA437F /* SelectedCompaniesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C29EC3215D46BF00DA437F /* SelectedCompaniesCollectionViewCell.swift */; };
+		B6D153F7217073B600ABB7C8 /* SearchComparisonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D153F6217073B600ABB7C8 /* SearchComparisonCell.swift */; };
+		B6E61A5C216D624D00961710 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E61A5B216D624D00961710 /* TestViewController.swift */; };
+		B6E61A5E216D638200961710 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E61A5D216D638200961710 /* SearchTableViewCell.swift */; };
+		B6E61A62216D78DA00961710 /* SearchResultTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E61A61216D78DA00961710 /* SearchResultTableViewCell1.swift */; };
+		B6E9F3AD2154B0C000B2168D /* GraphInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FA6DC82147C15200C38901 /* GraphInfo.storyboard */; };
+		B6E9F3AE2154B0DF00B2168D /* GraphInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FA6DC82147C15200C38901 /* GraphInfo.storyboard */; };
+		B6E9F3B02154CEC400B2168D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9F3AF2154CEC400B2168D /* LoginController.swift */; };
+		B6E9F3B12154CEC400B2168D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9F3AF2154CEC400B2168D /* LoginController.swift */; };
+		B6E9F3B32154D5EC00B2168D /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9F3B22154D5EC00B2168D /* SignUpController.swift */; };
+		B6E9F3B42154D5EC00B2168D /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9F3B22154D5EC00B2168D /* SignUpController.swift */; };
+		B6E9F3B62154E2BB00B2168D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9F3B52154E2BB00B2168D /* ForgotPasswordViewController.swift */; };
+		B6E9F3B72154E2BB00B2168D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9F3B52154E2BB00B2168D /* ForgotPasswordViewController.swift */; };
+		B6F9D6A12156A3DD0093C385 /* RatioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F9D6A02156A3DD0093C385 /* RatioCell.swift */; };
+		B6FA3526217C4C8A008C6C40 /* onboardingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA3525217C4C8A008C6C40 /* onboardingClass.swift */; };
+		B6FA3528217C4D5A008C6C40 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA3527217C4D5A008C6C40 /* OnboardingViewController.swift */; };
+		B6FA352A217DE8C4008C6C40 /* ResetPasswordCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA3529217DE8C4008C6C40 /* ResetPasswordCodeViewController.swift */; };
+		B6FA352C217DECDA008C6C40 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA352B217DECDA008C6C40 /* NewPasswordViewController.swift */; };
+		B6FA352D217DF0DB008C6C40 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA352B217DECDA008C6C40 /* NewPasswordViewController.swift */; };
+		B6FA352E217DF0DF008C6C40 /* ResetPasswordCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA3529217DE8C4008C6C40 /* ResetPasswordCodeViewController.swift */; };
+		B6FA6DC72147B29D00C38901 /* GraphScaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FA6DC62147B29D00C38901 /* GraphScaleInfo.swift */; };
+		B6FA6DC92147C15200C38901 /* GraphInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FA6DC82147C15200C38901 /* GraphInfo.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B65A53A02141538700C18554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65A53832141538600C18554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65A538A2141538600C18554;
+			remoteInfo = "Hixel IOS App";
+		};
+		B65A53AB2141538700C18554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65A53832141538600C18554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65A538A2141538600C18554;
+			remoteInfo = "Hixel IOS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E67BE17182F949A42DD2289 /* Pods_Hixel_IOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hixel_IOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336CD5C64B0D33E240F1D549 /* Pods-Hixel IOS AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hixel IOS AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hixel IOS AppUITests/Pods-Hixel IOS AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61D8BCCA86C733592D390A40 /* Pods-Hixel IOS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hixel IOS App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hixel IOS App/Pods-Hixel IOS App.debug.xcconfig"; sourceTree = "<group>"; };
+		6CABD49832682223D4D7E494 /* Pods-Hixel IOS AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hixel IOS AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hixel IOS AppTests/Pods-Hixel IOS AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C32D27D217239C30087A3FD /* UserPortfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPortfolio.swift; sourceTree = "<group>"; };
+		8C32D27F21723B530087A3FD /* PortfolioCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCompany.swift; sourceTree = "<group>"; };
+		8C478F41217D7836009D5A0F /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		8C478F42217D7836009D5A0F /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		8C478F43217D7836009D5A0F /* ServerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerInterface.swift; sourceTree = "<group>"; };
+		8C668BD12146B35100356101 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		8CA9B1602146D25A00FC5502 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		8CA9B1622146D64F00FC5502 /* CompanyIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyIdentifiers.swift; sourceTree = "<group>"; };
+		8CA9B1642146D77A00FC5502 /* FinancialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialData.swift; sourceTree = "<group>"; };
+		8CA9B1662146D8CE00FC5502 /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		8CA9B1682146DEE500FC5502 /* ApplicationUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationUser.swift; sourceTree = "<group>"; };
+		8CA9B16A2146DFB400FC5502 /* SearchEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEntry.swift; sourceTree = "<group>"; };
+		9B5E872485E221A1872E1843 /* Pods-Hixel IOS AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hixel IOS AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hixel IOS AppUITests/Pods-Hixel IOS AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B61B178B2150E70D0029CA63 /* ComparisonController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonController2.swift; sourceTree = "<group>"; };
+		B61B178F2150F2FB0029CA63 /* ComparisonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonCollectionViewCell.swift; sourceTree = "<group>"; };
+		B61B1793215106A20029CA63 /* ScoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		B61B1797215180BF0029CA63 /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
+		B61B179921519B200029CA63 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B61B179B2151A8810029CA63 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		B6340EB9218662BB0027532B /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		B6452BAC2179C6C3003DD53A /* GenralIndicators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenralIndicators.swift; sourceTree = "<group>"; };
+		B6541AF221434F4900AB9894 /* CompanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		B6541AF621436F0700AB9894 /* Cell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell2.swift; sourceTree = "<group>"; };
+		B6542393215566AB00C445D6 /* GraphInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B65423952155672F00C445D6 /* GraphInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphInfoViewController.swift; sourceTree = "<group>"; };
+		B65A538B2141538600C18554 /* Hixel IOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hixel IOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A53982141538700C18554 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65A539A2141538700C18554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65A539F2141538700C18554 /* Hixel IOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hixel IOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A53A32141538700C18554 /* Hixel_IOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hixel_IOS_AppTests.swift; sourceTree = "<group>"; };
+		B65A53A52141538700C18554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65A53AA2141538700C18554 /* Hixel IOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hixel IOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65A53AE2141538700C18554 /* Hixel_IOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hixel_IOS_AppUITests.swift; sourceTree = "<group>"; };
+		B65A53B02141538700C18554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65A53BD2141648B00C18554 /* TempCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCompany.swift; sourceTree = "<group>"; };
+		B65A53C1214206E600C18554 /* Portfolio.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Portfolio.storyboard; sourceTree = "<group>"; };
+		B65A53C3214208A300C18554 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		B65A53C52142098A00C18554 /* ComparisonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonController.swift; sourceTree = "<group>"; };
+		B65A53C7214209CB00C18554 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		B682400F214B310900DFACF0 /* CompanyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyController.swift; sourceTree = "<group>"; };
+		B6A2D74E214FA5A000853A0C /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		B6A523FB21420F490007B0C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B6A523FD21420F600007B0C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C29EC3215D46BF00DA437F /* SelectedCompaniesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCompaniesCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6D153F6217073B600ABB7C8 /* SearchComparisonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchComparisonCell.swift; sourceTree = "<group>"; };
+		B6E61A5B216D624D00961710 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B6E61A5D216D638200961710 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		B6E61A61216D78DA00961710 /* SearchResultTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell1.swift; sourceTree = "<group>"; };
+		B6E9F3AF2154CEC400B2168D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B6E9F3B22154D5EC00B2168D /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		B6E9F3B52154E2BB00B2168D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B6F9D6A02156A3DD0093C385 /* RatioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioCell.swift; sourceTree = "<group>"; };
+		B6FA3525217C4C8A008C6C40 /* onboardingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onboardingClass.swift; sourceTree = "<group>"; };
+		B6FA3527217C4D5A008C6C40 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B6FA3529217DE8C4008C6C40 /* ResetPasswordCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordCodeViewController.swift; sourceTree = "<group>"; };
+		B6FA352B217DECDA008C6C40 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		B6FA6DC62147B29D00C38901 /* GraphScaleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScaleInfo.swift; sourceTree = "<group>"; };
+		B6FA6DC82147C15200C38901 /* GraphInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GraphInfo.storyboard; sourceTree = "<group>"; };
+		DBB121D7DF7B2A91324DEE30 /* Pods-Hixel IOS AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hixel IOS AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hixel IOS AppTests/Pods-Hixel IOS AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E48DF9D6530CA926166C59F0 /* Pods-Hixel IOS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hixel IOS App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hixel IOS App/Pods-Hixel IOS App.release.xcconfig"; sourceTree = "<group>"; };
+		EA35FF841B2F2C5A74FBE7E5 /* Pods_Hixel_IOS_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hixel_IOS_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38601F80EEAEB2FCEAEBD5C /* Pods_Hixel_IOS_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hixel_IOS_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65A53882141538600C18554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734B87F9F826882AE3C9E238 /* Pods_Hixel_IOS_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A539C2141538700C18554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94142663FEE05EBC3F17E3A /* Pods_Hixel_IOS_AppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A53A72141538700C18554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E7DB5D41EC833636E1DC8B /* Pods_Hixel_IOS_AppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1745CBD325EB5638E12BE226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E67BE17182F949A42DD2289 /* Pods_Hixel_IOS_App.framework */,
+				F38601F80EEAEB2FCEAEBD5C /* Pods_Hixel_IOS_AppTests.framework */,
+				EA35FF841B2F2C5A74FBE7E5 /* Pods_Hixel_IOS_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EFCED85405460AD2B401E88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61D8BCCA86C733592D390A40 /* Pods-Hixel IOS App.debug.xcconfig */,
+				E48DF9D6530CA926166C59F0 /* Pods-Hixel IOS App.release.xcconfig */,
+				DBB121D7DF7B2A91324DEE30 /* Pods-Hixel IOS AppTests.debug.xcconfig */,
+				6CABD49832682223D4D7E494 /* Pods-Hixel IOS AppTests.release.xcconfig */,
+				9B5E872485E221A1872E1843 /* Pods-Hixel IOS AppUITests.debug.xcconfig */,
+				336CD5C64B0D33E240F1D549 /* Pods-Hixel IOS AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C478F40217D7836009D5A0F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8C478F41217D7836009D5A0F /* Client.swift */,
+				8C478F42217D7836009D5A0F /* Credentials.swift */,
+				8C478F43217D7836009D5A0F /* ServerInterface.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B65A53822141538600C18554 = {
+			isa = PBXGroup;
+			children = (
+				B6A523FB21420F490007B0C8 /* Default-568h@2x.png */,
+				B65A538D2141538600C18554 /* Hixel IOS App */,
+				B65A53A22141538700C18554 /* Hixel IOS AppTests */,
+				B65A53AD2141538700C18554 /* Hixel IOS AppUITests */,
+				B65A538C2141538600C18554 /* Products */,
+				6EFCED85405460AD2B401E88 /* Pods */,
+				1745CBD325EB5638E12BE226 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B65A538C2141538600C18554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65A538B2141538600C18554 /* Hixel IOS App.app */,
+				B65A539F2141538700C18554 /* Hixel IOS AppTests.xctest */,
+				B65A53AA2141538700C18554 /* Hixel IOS AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65A538D2141538600C18554 /* Hixel IOS App */ = {
+			isa = PBXGroup;
+			children = (
+				8C478F40217D7836009D5A0F /* Network */,
+				B6F9D69F215633770093C385 /* Company VIew */,
+				B6F9D69E215633460093C385 /* Info Pop Ups */,
+				B6E9F3B82154E7E100B2168D /* Login */,
+				8C668BD12146B35100356101 /* AppDelegate.swift */,
+				B6D153F6217073B600ABB7C8 /* SearchComparisonCell.swift */,
+				B65A53C9214209FE00C18554 /* Main Dashboard */,
+				B6A523FD21420F600007B0C8 /* Assets.xcassets */,
+				B65A53972141538700C18554 /* LaunchScreen.storyboard */,
+				B65A539A2141538700C18554 /* Info.plist */,
+				B65A53CA21420A2500C18554 /* Comparison */,
+				B65A53CB21420A3700C18554 /* Settings */,
+				B65A53BC2141645600C18554 /* Model */,
+			);
+			path = "Hixel IOS App";
+			sourceTree = "<group>";
+		};
+		B65A53A22141538700C18554 /* Hixel IOS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B65A53A32141538700C18554 /* Hixel_IOS_AppTests.swift */,
+				B65A53A52141538700C18554 /* Info.plist */,
+			);
+			path = "Hixel IOS AppTests";
+			sourceTree = "<group>";
+		};
+		B65A53AD2141538700C18554 /* Hixel IOS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B65A53AE2141538700C18554 /* Hixel_IOS_AppUITests.swift */,
+				B65A53B02141538700C18554 /* Info.plist */,
+			);
+			path = "Hixel IOS AppUITests";
+			sourceTree = "<group>";
+		};
+		B65A53BC2141645600C18554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B65A53BD2141648B00C18554 /* TempCompany.swift */,
+				8CA9B1602146D25A00FC5502 /* Company.swift */,
+				8CA9B1622146D64F00FC5502 /* CompanyIdentifiers.swift */,
+				8CA9B1642146D77A00FC5502 /* FinancialData.swift */,
+				8CA9B1662146D8CE00FC5502 /* LoginData.swift */,
+				8CA9B1682146DEE500FC5502 /* ApplicationUser.swift */,
+				8CA9B16A2146DFB400FC5502 /* SearchEntry.swift */,
+				8C32D27D217239C30087A3FD /* UserPortfolio.swift */,
+				8C32D27F21723B530087A3FD /* PortfolioCompany.swift */,
+				B6452BAC2179C6C3003DD53A /* GenralIndicators.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B65A53C9214209FE00C18554 /* Main Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B65A53C1214206E600C18554 /* Portfolio.storyboard */,
+				B6FA3527217C4D5A008C6C40 /* OnboardingViewController.swift */,
+				B6FA3525217C4C8A008C6C40 /* onboardingClass.swift */,
+				B6E61A5D216D638200961710 /* SearchTableViewCell.swift */,
+				B6E61A61216D78DA00961710 /* SearchResultTableViewCell1.swift */,
+				B65A53C3214208A300C18554 /* Portfolio.swift */,
+				B6541AF621436F0700AB9894 /* Cell2.swift */,
+				B6FA6DC62147B29D00C38901 /* GraphScaleInfo.swift */,
+				B6A2D74E214FA5A000853A0C /* SearchCell.swift */,
+				B6541AF221434F4900AB9894 /* CompanyCell.swift */,
+				B61B178F2150F2FB0029CA63 /* ComparisonCollectionViewCell.swift */,
+				B6E61A5B216D624D00961710 /* TestViewController.swift */,
+			);
+			path = "Main Dashboard";
+			sourceTree = "<group>";
+		};
+		B65A53CA21420A2500C18554 /* Comparison */ = {
+			isa = PBXGroup;
+			children = (
+				B61B1797215180BF0029CA63 /* CollectionViewCell3.swift */,
+				B65A53C52142098A00C18554 /* ComparisonController.swift */,
+				B61B178B2150E70D0029CA63 /* ComparisonController2.swift */,
+				B61B1793215106A20029CA63 /* ScoreCollectionViewCell.swift */,
+				B61B179921519B200029CA63 /* TableViewCell.swift */,
+				B6C29EC3215D46BF00DA437F /* SelectedCompaniesCollectionViewCell.swift */,
+			);
+			path = Comparison;
+			sourceTree = "<group>";
+		};
+		B65A53CB21420A3700C18554 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B65A53C7214209CB00C18554 /* SettingsController.swift */,
+				B6340EB9218662BB0027532B /* ChangePasswordViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B6E9F3B82154E7E100B2168D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B6E9F3AF2154CEC400B2168D /* LoginController.swift */,
+				B6E9F3B22154D5EC00B2168D /* SignUpController.swift */,
+				B6E9F3B52154E2BB00B2168D /* ForgotPasswordViewController.swift */,
+				B6FA352B217DECDA008C6C40 /* NewPasswordViewController.swift */,
+				B6FA3529217DE8C4008C6C40 /* ResetPasswordCodeViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B6F9D69E215633460093C385 /* Info Pop Ups */ = {
+			isa = PBXGroup;
+			children = (
+				B6542393215566AB00C445D6 /* GraphInfoCollectionViewCell.swift */,
+				B65423952155672F00C445D6 /* GraphInfoViewController.swift */,
+				B6FA6DC82147C15200C38901 /* GraphInfo.storyboard */,
+			);
+			path = "Info Pop Ups";
+			sourceTree = "<group>";
+		};
+		B6F9D69F215633770093C385 /* Company VIew */ = {
+			isa = PBXGroup;
+			children = (
+				B682400F214B310900DFACF0 /* CompanyController.swift */,
+				B61B179B2151A8810029CA63 /* CompanyTableViewCell.swift */,
+				B6F9D6A02156A3DD0093C385 /* RatioCell.swift */,
+			);
+			path = "Company VIew";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65A538A2141538600C18554 /* Hixel IOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65A53B32141538700C18554 /* Build configuration list for PBXNativeTarget "Hixel IOS App" */;
+			buildPhases = (
+				E5818C3269D9F1CC09224D18 /* [CP] Check Pods Manifest.lock */,
+				B65A53872141538600C18554 /* Sources */,
+				B65A53882141538600C18554 /* Frameworks */,
+				B65A53892141538600C18554 /* Resources */,
+				DB38FB85506801A8B479341D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hixel IOS App";
+			productName = "Hixel IOS App";
+			productReference = B65A538B2141538600C18554 /* Hixel IOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B65A539E2141538700C18554 /* Hixel IOS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65A53B62141538700C18554 /* Build configuration list for PBXNativeTarget "Hixel IOS AppTests" */;
+			buildPhases = (
+				57F2C1947DBCBFEE86E5308E /* [CP] Check Pods Manifest.lock */,
+				B65A539B2141538700C18554 /* Sources */,
+				B65A539C2141538700C18554 /* Frameworks */,
+				B65A539D2141538700C18554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65A53A12141538700C18554 /* PBXTargetDependency */,
+			);
+			name = "Hixel IOS AppTests";
+			productName = "Hixel IOS AppTests";
+			productReference = B65A539F2141538700C18554 /* Hixel IOS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B65A53A92141538700C18554 /* Hixel IOS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65A53B92141538700C18554 /* Build configuration list for PBXNativeTarget "Hixel IOS AppUITests" */;
+			buildPhases = (
+				36FF1F9753477277CBA8C91A /* [CP] Check Pods Manifest.lock */,
+				B65A53A62141538700C18554 /* Sources */,
+				B65A53A72141538700C18554 /* Frameworks */,
+				B65A53A82141538700C18554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65A53AC2141538700C18554 /* PBXTargetDependency */,
+			);
+			name = "Hixel IOS AppUITests";
+			productName = "Hixel IOS AppUITests";
+			productReference = B65A53AA2141538700C18554 /* Hixel IOS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65A53832141538600C18554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Naveen Gaur";
+				TargetAttributes = {
+					B65A538A2141538600C18554 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					B65A539E2141538700C18554 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B65A538A2141538600C18554;
+					};
+					B65A53A92141538700C18554 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B65A538A2141538600C18554;
+					};
+				};
+			};
+			buildConfigurationList = B65A53862141538600C18554 /* Build configuration list for PBXProject "Hixel IOS App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65A53822141538600C18554;
+			productRefGroup = B65A538C2141538600C18554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65A538A2141538600C18554 /* Hixel IOS App */,
+				B65A539E2141538700C18554 /* Hixel IOS AppTests */,
+				B65A53A92141538700C18554 /* Hixel IOS AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65A53892141538600C18554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FA6DC92147C15200C38901 /* GraphInfo.storyboard in Resources */,
+				B65A53992141538700C18554 /* LaunchScreen.storyboard in Resources */,
+				B6A523FC21420F4A0007B0C8 /* Default-568h@2x.png in Resources */,
+				B6A52400214213310007B0C8 /* Assets.xcassets in Resources */,
+				B65A53C2214206E600C18554 /* Portfolio.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A539D2141538700C18554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A52401214213340007B0C8 /* Assets.xcassets in Resources */,
+				B6E9F3AE2154B0DF00B2168D /* GraphInfo.storyboard in Resources */,
+				B65A53CC21420C2A00C18554 /* Portfolio.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A53A82141538700C18554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A52402214213350007B0C8 /* Assets.xcassets in Resources */,
+				B6E9F3AD2154B0C000B2168D /* GraphInfo.storyboard in Resources */,
+				B65A53CD21420C2B00C18554 /* Portfolio.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36FF1F9753477277CBA8C91A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hixel IOS AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F2C1947DBCBFEE86E5308E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hixel IOS AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB38FB85506801A8B479341D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hixel IOS App/Pods-Hixel IOS App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hixel IOS App/Pods-Hixel IOS App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5818C3269D9F1CC09224D18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hixel IOS App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65A53872141538600C18554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E9F3B32154D5EC00B2168D /* SignUpController.swift in Sources */,
+				B61B17902150F2FB0029CA63 /* ComparisonCollectionViewCell.swift in Sources */,
+				8C478F47217D7836009D5A0F /* Credentials.swift in Sources */,
+				8C32D27E217239C30087A3FD /* UserPortfolio.swift in Sources */,
+				B61B178C2150E70D0029CA63 /* ComparisonController2.swift in Sources */,
+				B65A53C8214209CB00C18554 /* SettingsController.swift in Sources */,
+				8CA9B1652146D77A00FC5502 /* FinancialData.swift in Sources */,
+				B6541AF321434F4900AB9894 /* CompanyCell.swift in Sources */,
+				8CA9B16B2146DFB400FC5502 /* SearchEntry.swift in Sources */,
+				B6541AF721436F0700AB9894 /* Cell2.swift in Sources */,
+				B6FA352A217DE8C4008C6C40 /* ResetPasswordCodeViewController.swift in Sources */,
+				8CA9B1692146DEE500FC5502 /* ApplicationUser.swift in Sources */,
+				B6FA352C217DECDA008C6C40 /* NewPasswordViewController.swift in Sources */,
+				B6E9F3B62154E2BB00B2168D /* ForgotPasswordViewController.swift in Sources */,
+				B6E61A5E216D638200961710 /* SearchTableViewCell.swift in Sources */,
+				B6542394215566AB00C445D6 /* GraphInfoCollectionViewCell.swift in Sources */,
+				8CA9B1672146D8CE00FC5502 /* LoginData.swift in Sources */,
+				B6E61A5C216D624D00961710 /* TestViewController.swift in Sources */,
+				B65A53C4214208A300C18554 /* Portfolio.swift in Sources */,
+				8C668BD22146B35100356101 /* AppDelegate.swift in Sources */,
+				B6824010214B310900DFACF0 /* CompanyController.swift in Sources */,
+				B65423962155672F00C445D6 /* GraphInfoViewController.swift in Sources */,
+				B6E9F3B02154CEC400B2168D /* LoginController.swift in Sources */,
+				B65A53C62142098A00C18554 /* ComparisonController.swift in Sources */,
+				B61B179C2151A8810029CA63 /* CompanyTableViewCell.swift in Sources */,
+				8CA9B1612146D25A00FC5502 /* Company.swift in Sources */,
+				B6C29EC4215D46BF00DA437F /* SelectedCompaniesCollectionViewCell.swift in Sources */,
+				B6FA3526217C4C8A008C6C40 /* onboardingClass.swift in Sources */,
+				B6F9D6A12156A3DD0093C385 /* RatioCell.swift in Sources */,
+				B61B1794215106A20029CA63 /* ScoreCollectionViewCell.swift in Sources */,
+				B6FA6DC72147B29D00C38901 /* GraphScaleInfo.swift in Sources */,
+				B61B179A21519B200029CA63 /* TableViewCell.swift in Sources */,
+				8C32D28021723B530087A3FD /* PortfolioCompany.swift in Sources */,
+				B6340EBA218662BB0027532B /* ChangePasswordViewController.swift in Sources */,
+				8CA9B1632146D64F00FC5502 /* CompanyIdentifiers.swift in Sources */,
+				B6FA3528217C4D5A008C6C40 /* OnboardingViewController.swift in Sources */,
+				8C478F4A217D7836009D5A0F /* ServerInterface.swift in Sources */,
+				8C478F44217D7836009D5A0F /* Client.swift in Sources */,
+				B6D153F7217073B600ABB7C8 /* SearchComparisonCell.swift in Sources */,
+				B6A2D74F214FA5A000853A0C /* SearchCell.swift in Sources */,
+				B61B1798215180BF0029CA63 /* CollectionViewCell3.swift in Sources */,
+				B65A53BE2141648B00C18554 /* TempCompany.swift in Sources */,
+				B6452BAD2179C6C3003DD53A /* GenralIndicators.swift in Sources */,
+				B6E61A62216D78DA00961710 /* SearchResultTableViewCell1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A539B2141538700C18554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C478F4B217D7836009D5A0F /* ServerInterface.swift in Sources */,
+				8C3DD29C2163E8E000DA2C99 /* SearchEntry.swift in Sources */,
+				8C3DD2942163E8D200DA2C99 /* CompanyIdentifiers.swift in Sources */,
+				8C3DD29A2163E8DD00DA2C99 /* ApplicationUser.swift in Sources */,
+				8C478F48217D7836009D5A0F /* Credentials.swift in Sources */,
+				8C3DD2962163E8D500DA2C99 /* Company.swift in Sources */,
+				B65A53A42141538700C18554 /* Hixel_IOS_AppTests.swift in Sources */,
+				8C3DD2982163E8D800DA2C99 /* TempCompany.swift in Sources */,
+				B61B17912150F2FB0029CA63 /* ComparisonCollectionViewCell.swift in Sources */,
+				8C3DD2922163E8CF00DA2C99 /* FinancialData.swift in Sources */,
+				8C478F45217D7836009D5A0F /* Client.swift in Sources */,
+				8C3DD2902163E8CC00DA2C99 /* LoginData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65A53A62141538700C18554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3DD29D2163E8E100DA2C99 /* SearchEntry.swift in Sources */,
+				8C3DD29B2163E8DD00DA2C99 /* ApplicationUser.swift in Sources */,
+				8C3DD2952163E8D300DA2C99 /* CompanyIdentifiers.swift in Sources */,
+				B6FA352E217DF0DF008C6C40 /* ResetPasswordCodeViewController.swift in Sources */,
+				B65A53AF2141538700C18554 /* Hixel_IOS_AppUITests.swift in Sources */,
+				8C3DD2912163E8CD00DA2C99 /* LoginData.swift in Sources */,
+				8C3DD2992163E8D800DA2C99 /* TempCompany.swift in Sources */,
+				B6FA352D217DF0DB008C6C40 /* NewPasswordViewController.swift in Sources */,
+				8C478F4C217D7836009D5A0F /* ServerInterface.swift in Sources */,
+				8C478F46217D7836009D5A0F /* Client.swift in Sources */,
+				B6E9F3B72154E2BB00B2168D /* ForgotPasswordViewController.swift in Sources */,
+				B6E9F3B12154CEC400B2168D /* LoginController.swift in Sources */,
+				8C3DD2932163E8D000DA2C99 /* FinancialData.swift in Sources */,
+				8C478F49217D7836009D5A0F /* Credentials.swift in Sources */,
+				B61B17922150F2FB0029CA63 /* ComparisonCollectionViewCell.swift in Sources */,
+				B6E9F3B42154D5EC00B2168D /* SignUpController.swift in Sources */,
+				8C3DD2972163E8D500DA2C99 /* Company.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B65A53A12141538700C18554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65A538A2141538600C18554 /* Hixel IOS App */;
+			targetProxy = B65A53A02141538700C18554 /* PBXContainerItemProxy */;
+		};
+		B65A53AC2141538700C18554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65A538A2141538600C18554 /* Hixel IOS App */;
+			targetProxy = B65A53AB2141538700C18554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B65A53972141538700C18554 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65A53982141538700C18554 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65A53B12141538700C18554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B65A53B22141538700C18554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65A53B42141538700C18554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D8BCCA86C733592D390A40 /* Pods-Hixel IOS App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72F2HJBU4U;
+				INFOPLIST_FILE = "Hixel IOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Hello-World.Hixel-IOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B65A53B52141538700C18554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48DF9D6530CA926166C59F0 /* Pods-Hixel IOS App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72F2HJBU4U;
+				INFOPLIST_FILE = "Hixel IOS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Hello-World.Hixel-IOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B65A53B72141538700C18554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB121D7DF7B2A91324DEE30 /* Pods-Hixel IOS AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hixel IOS AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Hello-World.Hixel-IOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hixel IOS App.app/Hixel IOS App";
+			};
+			name = Debug;
+		};
+		B65A53B82141538700C18554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CABD49832682223D4D7E494 /* Pods-Hixel IOS AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hixel IOS AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Hello-World.Hixel-IOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hixel IOS App.app/Hixel IOS App";
+			};
+			name = Release;
+		};
+		B65A53BA2141538700C18554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5E872485E221A1872E1843 /* Pods-Hixel IOS AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hixel IOS AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Hello-World.Hixel-IOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hixel IOS App";
+			};
+			name = Debug;
+		};
+		B65A53BB2141538700C18554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336CD5C64B0D33E240F1D549 /* Pods-Hixel IOS AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hixel IOS AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Hello-World.Hixel-IOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hixel IOS App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65A53862141538600C18554 /* Build configuration list for PBXProject "Hixel IOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A53B12141538700C18554 /* Debug */,
+				B65A53B22141538700C18554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65A53B32141538700C18554 /* Build configuration list for PBXNativeTarget "Hixel IOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A53B42141538700C18554 /* Debug */,
+				B65A53B52141538700C18554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65A53B62141538700C18554 /* Build configuration list for PBXNativeTarget "Hixel IOS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A53B72141538700C18554 /* Debug */,
+				B65A53B82141538700C18554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65A53B92141538700C18554 /* Build configuration list for PBXNativeTarget "Hixel IOS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65A53BA2141538700C18554 /* Debug */,
+				B65A53BB2141538700C18554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B65A53832141538600C18554 /* Project object */;
+}
